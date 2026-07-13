@@ -1,0 +1,6 @@
+interface:
+  display_name: "Commander"
+  short_description: "Dispatch to the best installed skill"
+  default_prompt: "Use $commander to analyze my request and invoke the most suitable installed skill."
+policy:
+  allow_implicit_invocation: true
